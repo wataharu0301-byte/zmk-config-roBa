@@ -181,7 +181,7 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans              &kp UP_ARROW        &trans               &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans              &kp LG(UP_ARROW)    &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans              &trans              &trans               &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                               &trans

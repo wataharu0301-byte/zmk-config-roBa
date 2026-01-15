@@ -83,7 +83,7 @@
             bindings = <
 &kp Q             &kp W         &kp E                  &kp R                        &kp T                                                     &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &lt 5 D                &lt 5 F                      &kp G        &kp LS(LG(S))               &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp COLON
-&mt LEFT_SHIFT Z  &kp X         &kp C                  &kp V                        &kp B        &kp LANGUAGE_1              &kp LANGUAGE_2   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C                  &kp V                        &kp B        &kp LANGUAGE_1              &kp LANGUAGE_2   &kp N        &kp M  &kp COMMA  &kp DOT  &mt RSHFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &lt_to_layer_0 5 LALT  &lt_to_layer_0 6 LANGUAGE_1  &lt 2 SPACE  &lt_to_layer_0 3 SPACE      &lt 1 BACKSPACE  &lt 3 ENTER                             &kp ESCAPE
             >;
 

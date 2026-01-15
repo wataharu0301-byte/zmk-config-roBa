@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E                  &kp R                        &kp T                                                      &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &lt 5 D                &lt 5 F                      &kp G        &kp LS(LG(S))                    &kp MINUS    &kp H            &kp J  &kp K      &kp L    &kp COLON
-&mt LEFT_SHIFT Z  &kp X         &kp C                  &kp V                        &kp B        &kp NUMBER_8                     &kp N9       &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &lt_to_layer_0 5 LALT  &lt_to_layer_0 6 LANGUAGE_1  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt 1 ENTER  &lt 3 BACKSPACE                             &kp ESCAPE
+&kp Q             &kp W         &kp E                  &kp R                        &kp T                                                    &kp Y            &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &lt 5 D                &lt 5 F                      &kp G        &kp LS(LG(S))               &kp MINUS       &kp H            &kp J  &kp K      &kp L    &kp COLON
+&mt LEFT_SHIFT Z  &kp X         &kp C                  &kp V                        &kp B        &kp LANGUAGE_1              &kp LANGUAGE_2  &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &lt_to_layer_0 5 LALT  &lt_to_layer_0 6 LANGUAGE_1  &lt 2 SPACE  &lt_to_layer_0 3 SPACE      &lt 1 ENTER     &lt 3 BACKSPACE                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
@@ -101,10 +101,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp N7            &kp N8        &kp NUMBER_9  &kp PLUS                                                &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp AT_SIGN  &kp EXCLAMATION   &kp LS(SLASH)      &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp N1            &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                   &kp LS(NUMBER_2)  &trans        &trans        &trans        &trans                       &trans       &trans                                                                     &kp PIPE
+&kp MINUS                &kp N7            &kp N8        &kp NUMBER_9  &kp PLUS                                                &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LS(N9)       &kp LS(N0)
+&kp SLASH                &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp AT_SIGN  &kp EXCLAMATION   &kp LS(SLASH)      &kp HASH        &kp DOLLAR       &kp PERCENT
+&mt LEFT_SHIFT NUMBER_0  &kp N1            &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans                   &kp LS(NUMBER_2)  &trans        &trans        &trans        &trans                       &trans       &trans                                                                &kp PIPE
             >;
         };
 

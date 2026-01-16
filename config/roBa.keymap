@@ -134,10 +134,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp N7            &kp N8        &kp NUMBER_9  &kp COLON                                                        &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LS(NUMBER_8)  &kp LS(NUMBER_9)
-&kp SLASH                &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp LS(DOUBLE_QUOTES)  &kp LC(LA(KP_NUMBER_0))      &kp AT_SIGN  &kp EXCLAMATION   &kp LS(SLASH)      &kp HASH        &kp DOLLAR        &kp PERCENT
-&mt LEFT_SHIFT NUMBER_0  &kp N1            &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD             &kp UNDER                    &trans       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp BACKSLASH
-&trans                   &kp LS(NUMBER_2)  &trans        &trans        &trans                 &trans                       &trans       &trans                                                                 &kp PIPE
+&kp MINUS                &kp N7            &kp N8        &kp NUMBER_9  &kp COLON                                                             &kp APOSTROPHE    &kp SEMI           &kp TILDE       &kp LS(NUMBER_8)   &kp LS(NUMBER_9)
+&kp SLASH                &kp NUMBER_4      &kp N5        &kp NUMBER_6  &kp LS(DOUBLE_QUOTES)  &kp LC(LA(KP_NUMBER_0))      &kp LEFT_BRACKET  &kp EXCLAMATION   &kp LS(SLASH)      &kp HASH        &kp RIGHT_BRACKET  &kp BACKSLASH
+&mt LEFT_SHIFT NUMBER_0  &kp N1            &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD             &kp UNDER                    &kp LS(MINUS)     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LS(BACKSLASH)
+&trans                   &kp LS(NUMBER_2)  &trans        &trans        &trans                 &trans                       &trans            &trans                                                                  &kp PIPE
             >;
         };
 
